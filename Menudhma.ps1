@@ -1,4 +1,6 @@
-﻿<#making sure script is run as admin#>
+﻿<#d'Hooge Matthijs#>
+
+<#making sure script is run as admin#>
 if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]"Administrator")) {
     Start-Process powershell -Verb RunAs -ArgumentList "-NoExit -ExecutionPolicy Bypass -File `"$PSCommandPath`""
     exit
@@ -13,6 +15,7 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope LocalMachine -Force
 
 <#importing modules#>
 Import-Module "$PSScriptRoot\modules\algemeendhma.psm1" -Force
+Import-Module "$PSScriptRoot\modules\domainsettingsdhma.psm1" -Force
 
 
 

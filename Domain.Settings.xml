@@ -2,7 +2,7 @@
 <!-- Copyright (c) Prof-IT Solutions bvba. All rights reserved. -->
 <Settings>
 <Domain>
-<domainname>BelgoCorpxxx.lab</domainname>
+<domainname>BelgoCorpdhma.lab</domainname>
 <domainNetbiosName>BelgoCorpxxx</domainNetbiosName>
 <domainExtention>lab</domainExtention>
 <IsDnsIncluded>True</IsDnsIncluded>
@@ -15,7 +15,7 @@
 <homeFolder>
 <location>c:\userhomes</location>
 <sharename>userhomes$</sharename>
-<homeDrive>H</homeDrive>
+<homeDrive>H:</homeDrive>
 </homeFolder>
 <profileFolder>
 <location>c:\userprofiles</location>

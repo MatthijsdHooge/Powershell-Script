@@ -5,12 +5,12 @@
 <networksettings>
 <networkadapter>
 <name>lan</name>
-<macaddress>00-0C-29-C6-71-3D</macaddress>
+<macaddress>00-0C-29-F0-BD-F1</macaddress>
 <dhcpenabled>false</dhcpenabled>
-<ip>10.1.10.201</ip>
+<ip>10.1.158.10</ip>
 <prefixlength>24</prefixlength>
-<gateway>10.1.10.201</gateway>
-<dns>10.1.10.201</dns>
+<gateway>10.1.158.2</gateway>
+<dns>127.0.0.1</dns>
 <subnet>255.255.255.0</subnet>
 </networkadapter>
 <networkadapter>
@@ -24,8 +24,8 @@
 <subnet></subnet>
 </networkadapter>
 <networkadapter>
-<name>lan</name>
-<macaddress>00-50_56_BB_CC</macaddress>
+<name>lan2</name>
+<macaddress>00-50-56-BB-CC</macaddress>
 <dhcpenabled>false</dhcpenabled>
 <ip>10.1.10.202</ip>
 <prefixlength>24</prefixlength>

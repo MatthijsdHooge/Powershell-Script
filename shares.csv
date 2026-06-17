@@ -1,9 +1,9 @@
 map;share
-c:\Corporate\Management;Data_Management
-c:\Corporate\HR;Data_HR
-c:\Corporate\Finance;Data_Finance
-c:\Operations\IT;Data_IT
-c:\Operations\Production;Data_Production
-c:\Sales\Domestic;Data_Domestic
-c:\Sales\International;Data_International
+C:\Corporate\Management;Data_Management
+C:\Corporate\HR;Data_HR
+C:\Corporate\Finance;Data_Finance
+C:\Operations\IT;Data_IT
+C:\Operations\Production;Data_Production
+C:\Sales\Domestic;Data_Domestic
+C:\Sales\International;Data_International
 C:\Infrastructure;Data_Infrastucture
